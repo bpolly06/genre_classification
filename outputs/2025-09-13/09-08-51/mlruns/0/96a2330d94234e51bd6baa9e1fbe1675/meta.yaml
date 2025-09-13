@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/outputs/2025-09-13/09-08-51/mlruns/0/96a2330d94234e51bd6baa9e1fbe1675/artifacts
+end_time: 1757768950451
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96a2330d94234e51bd6baa9e1fbe1675
+run_name: unequaled-elk-133
+run_uuid: 96a2330d94234e51bd6baa9e1fbe1675
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757768931790
+status: 3
+tags: []
+user_id: bpolly88

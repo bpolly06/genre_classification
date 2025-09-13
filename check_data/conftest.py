@@ -2,7 +2,6 @@ import pytest
 import pandas as pd
 import wandb
 
-
 run = wandb.init(job_type="data_tests")
 
 
@@ -14,21 +13,19 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session")
 def data(request):
-
     reference_artifact = request.config.option.reference_artifact
-
     if reference_artifact is None:
         pytest.fail("--reference_artifact missing on command line")
 
     sample_artifact = request.config.option.sample_artifact
-
     if sample_artifact is None:
         pytest.fail("--sample_artifact missing on command line")
 
-    local_path = run.use_artifact(reference_artifact).file()
+    # Only change: add ":latest" to the artifact string
+    local_path = run.use_artifact(f"{reference_artifact}:latest").file()
     sample1 = pd.read_csv(local_path)
 
-    local_path = run.use_artifact(sample_artifact).file()
+    local_path = run.use_artifact(f"{sample_artifact}:latest").file()
     sample2 = pd.read_csv(local_path)
 
     return sample1, sample2
@@ -37,7 +34,6 @@ def data(request):
 @pytest.fixture(scope='session')
 def ks_alpha(request):
     ks_alpha = request.config.option.ks_alpha
-
     if ks_alpha is None:
         pytest.fail("--ks_threshold missing on command line")
 

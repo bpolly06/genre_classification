@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/outputs/2025-09-13/09-08-51/mlruns/0/ebdcf807d9ac45538c21bb06e0e27106/artifacts
+end_time: 1757768988526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebdcf807d9ac45538c21bb06e0e27106
+run_name: nosy-kit-310
+run_uuid: ebdcf807d9ac45538c21bb06e0e27106
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757768971462
+status: 4
+tags: []
+user_id: bpolly88
