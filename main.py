@@ -8,6 +8,12 @@ from omegaconf import DictConfig, OmegaConf
 @hydra.main(config_name='config')
 def go(config: DictConfig):
 
+    wandb.config = OmegaConf.to_container(
+         config, 
+         resolve=True, 
+         throw_on_missing=True
+    )
+
     # Setup the wandb experiment. All runs will be grouped under this name
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
     os.environ["WANDB_RUN_GROUP"] = config["main"]["experiment_name"]
