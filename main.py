@@ -1,7 +1,8 @@
 import mlflow
 import os
 import hydra
-from omegaconf import DictConfig, OmegaConf
+from omegaconf import DictConfig, OmegaConf, ListConfig
+
 
 
 # This automatically reads in the configuration
