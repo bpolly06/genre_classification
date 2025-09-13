@@ -4,10 +4,11 @@ channels:
   - defaults
 dependencies:
   - python=3.9
+  - pandas=1.5.3
   - requests=2.28.*
   - pip=23.*
-  - mlflow=1.32.*
-  - protobuf=3.20.*
+  - mlflow=1.14.1
+  - protobuf=3.20.3
   - hydra-core=1.1.*
   - numpy=1.23.*
   - pip:

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/mlruns/0/dd2c1c9175c14bc1bc4db168d8d04767/artifacts
+end_time: 1757799750826
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: dd2c1c9175c14bc1bc4db168d8d04767
+run_uuid: dd2c1c9175c14bc1bc4db168d8d04767
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757799731617
+status: 3
+tags: []
+user_id: bpolly88

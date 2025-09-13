@@ -60,7 +60,7 @@ def go(config: DictConfig):
             "main",
             parameters={
                 "reference_artifact": config["data"]["reference_dataset"],
-                "sample_artifact": "preprocessed_data.csv",
+                "sample_artifact": "preprocessed_data.csv:latest",
                 "ks_alpha": config["data"]["ks_alpha"]
             },
         )
@@ -77,7 +77,6 @@ def go(config: DictConfig):
                 "artifact_root": "data",
                 "artifact_type": "segregated_data",
                 "test_size": config["data"]["test_size"],
-                "random_state": config["data"]["random_state"],
                 "stratify": config["data"]["stratify"]
             },
         )

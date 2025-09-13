@@ -1,0 +1,141 @@
+{
+    "os": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.10.18",
+    "heartbeatAt": "2025-09-13T21:58:33.764162",
+    "startedAt": "2025-09-13T21:58:32.858178",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/mnt/c/genre_classification/outputs/2025-09-13/17-56-22/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/mnt/c/genre_classification/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "git@github.com:bpolly06/genre_classification.git",
+        "commit": "b3f48d0782cf987d44899d472ac83f3344361df2"
+    },
+    "email": "bpolly88@gmail.com",
+    "root": "/mnt/c/genre_classification",
+    "host": "LAPTOP-9B26H87L",
+    "username": "bpolly88",
+    "executable": "/home/bpolly88/miniconda3/envs/mlflow-f01a6fb214e5923df87bfe7ff899732ebdfc66ea/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2994.4100000000008,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2994.41,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 28.58470916748047
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.466976165771484
+    }
+}
