@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/outputs/2025-09-13/09-03-31/mlruns/0/2a3f9952f1e64d15b617d8dcc8fefdda/artifacts
+end_time: 1757768722199
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a3f9952f1e64d15b617d8dcc8fefdda
+run_name: monumental-gull-688
+run_uuid: 2a3f9952f1e64d15b617d8dcc8fefdda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757768673006
+status: 4
+tags: []
+user_id: bpolly88

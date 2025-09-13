@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/outputs/2025-09-13/09-03-31/mlruns/0/8b81023c526e4ab3bd703b174c5e1ee3/artifacts
+end_time: 1757768672772
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b81023c526e4ab3bd703b174c5e1ee3
+run_name: marvelous-turtle-654
+run_uuid: 8b81023c526e4ab3bd703b174c5e1ee3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757768611978
+status: 3
+tags: []
+user_id: bpolly88
