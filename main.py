@@ -17,11 +17,13 @@ def go(config: DictConfig):
 
     # Check which steps we need to execute
     if isinstance(config["main"]["execute_steps"], str):
-        # This was passed on the command line as a comma-separated list of steps
+    # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
+    elif isinstance(config["main"]["execute_steps"], ListConfig):
+        # Convert Hydra ListConfig to a normal Python list
+        steps_to_execute = list(config["main"]["execute_steps"])
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
-        steps_to_execute = config["main"]["execute_steps"]
+        raise TypeError("execute_steps must be a list or comma-separated string")
 
     # Download step
     if "download" in steps_to_execute:
