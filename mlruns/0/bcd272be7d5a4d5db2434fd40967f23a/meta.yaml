@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/mlruns/0/bcd272be7d5a4d5db2434fd40967f23a/artifacts
+end_time: 1757767056968
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bcd272be7d5a4d5db2434fd40967f23a
+run_name: capable-sponge-492
+run_uuid: bcd272be7d5a4d5db2434fd40967f23a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757767050899
+status: 4
+tags: []
+user_id: bpolly88

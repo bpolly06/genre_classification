@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/mlruns/0/b1a709589c9b4c97953348d8eb557d74/artifacts
+end_time: 1757766908628
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1a709589c9b4c97953348d8eb557d74
+run_name: puzzled-pug-75
+run_uuid: b1a709589c9b4c97953348d8eb557d74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757766856236
+status: 4
+tags: []
+user_id: bpolly88

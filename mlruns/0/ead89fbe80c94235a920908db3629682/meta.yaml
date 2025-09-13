@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/genre_classification/mlruns/0/ead89fbe80c94235a920908db3629682/artifacts
+end_time: 1757767510720
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ead89fbe80c94235a920908db3629682
+run_name: nosy-fox-897
+run_uuid: ead89fbe80c94235a920908db3629682
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757767505503
+status: 4
+tags: []
+user_id: bpolly88
